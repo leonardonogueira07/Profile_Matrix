@@ -1,6 +1,7 @@
 /*Cascating Stylesheet*/
 * {
     margin: 0;
+    padding: 0;
 }
 
 html, body {
@@ -21,8 +22,12 @@ body {
     width: 100%;
 }
 main {
-    /* background url(../_img/background.svg); */
-    background-image: url(../img/Mobile.png);
+    background: url(../img/background.svg);
+    /* background-image: url(../img/Mobile.png); */
+    /* background-repeat: no-repeat;
+    background-position: center; */
+    /* width: 40vw;
+    height: 128vh; */
     width: 375px;
     height: 812px;
     z-index: 1;

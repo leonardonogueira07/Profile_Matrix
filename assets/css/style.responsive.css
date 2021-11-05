@@ -1,0 +1,15 @@
+
+@media (min-width: 992px) {
+    main {
+    }
+}
+
+@media (max-width: 768px) {
+    main {
+        background: none;
+    }
+}
+
+@media (min-width: 362px) {
+
+}

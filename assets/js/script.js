@@ -1,10 +1,10 @@
 
 //Links alert
-const socialMedia = {
+const socialContent = {
     gitHub : 'master-jr',
-    youtube : 'UC_BSzKucblA4G8G0eAjCJ4A',
-    facebook : '100015134868886',
-    instagram : '@nogueiramaster'
+    youtube : 'channel/UC_BSzKucblA4G8G0eAjCJ4A',
+    facebook : 'profile.php?id=100015134868886',
+    instagram : '#'
 }
 /* console.log(socialMedia) */
 function changeNameMediaSocial() {
@@ -14,8 +14,7 @@ function changeNameMediaSocial() {
       /*  alert(li.children.href) */
 
       /* li.children[0].href = 'https://www.google.com' */
-       li.children[0].href = `https://${social}.com/$
-       {socialMedia[social]}`
+       li.children[0].href = `https://${social}.com/${socialContent[social]}`
 
        /* alert(social) */
        /* alert(li.children[0].href) */
@@ -23,6 +22,15 @@ function changeNameMediaSocial() {
 }
 changeNameMediaSocial();
 
+
+
+
+
+
+
+
+
+/* The Matrix Effect*/
 
 
 //const Matrix
